@@ -47,7 +47,7 @@ Create Lead
     TypeText                  Country                     Slovakia
     ClickText                 Save                        partial_match=False
     UseModal                  Off
-    VerifyText                Matus Montgomery TEST2      partial_match=True
+    VerifyText                Matus TEST2      partial_match=True
     ClickText                 Home
     ClickText                 Leads
     UseTable                  Item Number
