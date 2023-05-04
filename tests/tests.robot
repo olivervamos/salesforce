@@ -15,7 +15,7 @@ Open Browser and Login
     TypeText                  Username                    ${USERNAME}
     TypeText                  Password                    ${PASSWORD}
     ClickText                 Log In
-    VerifyText                Connect with Your Customer
+    VerifyText                See the Top Essentials Features
     SetConfig                 DefaultTimeout              10s                    # Salesforce is slow
 End Suite  
     [Documentation]           Log out and Close Browser
