@@ -35,10 +35,7 @@ Create Lead
     PickList                  *Lead Status                Working
     PickList                  Salutation                  Dr.
     TypeText                  First Name                  Matus
-    TypeText                  Middle Name                 Montgomery
     TypeText                  Last Name                   TEST2
-    TypeText                  Suffix                      none
-    TypeText                  Website                     www.sanae.sk
     TypeText                  *Company                    Sanae
     TypeText                  Street                      Dunajská
     TypeText                  City                        Bratislava
@@ -56,7 +53,7 @@ Create Lead
     ClickText                 Delete
     UseModal                  On
     ClickText                 Delete
-    VerifyText                Lead "Matus Montgomery TEST2 none" was deleted     partial_match=True
+    VerifyText                Lead "Matus TEST2" was deleted     partial_match=True
     End Suite
 
 Create Account
